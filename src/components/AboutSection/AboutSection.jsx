@@ -1,4 +1,3 @@
-import './AboutSection.css'
 import { Link } from 'react-router-dom'
 
 function AboutSection() {
