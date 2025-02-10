@@ -96,10 +96,31 @@ function Menu() {
 
       <MenuCard
       menu={desayuno}
-      img='https://images.pexels.com/photos/2775827/pexels-photo-2775827.jpeg?auto=compress&cs=tinysrgb&w=600'
+      img='https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600'
       title='Desayuno'
       bg='bg-white'
       text=''
+      />
+      <MenuCard 
+      menu={almuerzo}
+      img='https://images.pexels.com/photos/1860204/pexels-photo-1860204.jpeg?auto=compress&cs=tinysrgb&w=600'
+      title='Almuerzo'
+      bg='bg-dark'
+      text='text-white'
+      />
+      <MenuCard
+      menu={cena}
+      img='https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg?auto=compress&cs=tinysrgb&w=600'
+      title='Cena'
+      bg='bg-white'
+      text=''
+      />
+      <MenuCard
+      menu={postre}
+      img='https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=600'
+      title='Cena'
+      bg='bg-dark'
+      text='text-white'
       />
     </div>
   )

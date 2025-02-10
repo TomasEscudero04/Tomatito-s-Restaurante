@@ -1,6 +1,6 @@
 import { Card, CardBody, CardText, CardTitle } from "react-bootstrap"
 
-function MenuCard(menu, img, title, bg, text) {
+function MenuCard({menu, img, title, bg, text}) {
   return (
     <div className={`breakfast p-5 ${bg}`}>
           <div className='container'>
@@ -17,7 +17,7 @@ function MenuCard(menu, img, title, bg, text) {
                           <CardBody>
                             <CardTitle className='text-center fs-3'>{item.name}</CardTitle>
                             <CardText className='text-center fs-5'>{item.description}</CardText>
-                            <CardText className='text-center fs-5 fw-bold text-success'>Price: {item.price}</CardText>
+                            <CardText className='text-center fs-5 fw-bold text-success'>Precio: {item.price}</CardText>
                           </CardBody>
                         </Card>
                     </div>
