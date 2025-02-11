@@ -4,8 +4,8 @@ import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import ContactInfo from "../ContactInfo/ContactInfo";
 
-const validationSchema = Yup.object().shape({
-    firtsName: Yup.string().required("First Name is required"),
+const validationSchema = Yup.object({
+    firstName: Yup.string().required("First Name is required"),
     lastName: Yup.string().required("Last Name is required"),
     email: Yup.string().email("Invalid email").required("Email is required"),
     phone: Yup.string().matches(/^[0-9]+$/, "Phone number must be a number").required("Phone number is required"),
@@ -19,12 +19,12 @@ function ContactForm() {
 
     const handleSubmit = (values, { resetForm }) => {
         const serviceId = "service_2gdvmew";
-        const templeateId = "template_tsik6fq";
+        const templateId = "template_tsik6fq";
         const publicKey = "VOtZ2pP1lPkiDKm73";
 
-        emailjs.send(serviceId, templeateId, {
+        emailjs.send(serviceId, templateId, {
             to_name: "Restaurante React",
-            from_name: values.firtsName + " " + values.lastName,
+            from_name: values.firstName + " " + values.lastName,
             from_email: values.email,
             message: values.comments,
             guestNumber: values.guestNumber,
@@ -35,7 +35,7 @@ function ContactForm() {
         .then(() => {
             Swal.fire({
                 icon: "success",
-                title: "Form submitedd successfully",
+                title: "Form submited successfully",
                 text: "Your message has been sent",
                 position: "top-end",
                 showConfirmButton: false,
@@ -66,6 +66,7 @@ function ContactForm() {
         <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <ContactInfo />
         </div>
+        
         <div className="col-lg-6 d-flex justify-content-center">
         <Formik
             initialValues={{
