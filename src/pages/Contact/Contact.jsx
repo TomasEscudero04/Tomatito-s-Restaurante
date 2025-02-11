@@ -1,11 +1,18 @@
-import React from 'react'
+import { ContactForm } from '../../components';
+import './Contact.css';
 
-function Contac() {
+function Contact() {
   return (
-    <div>
-      
+    <div className='contact-page'>
+      <header className='mt-5'>
+        <div className='container h-100 d-flex align-items-center justify-content-center'>
+          <h1 className='text-light'>Contact</h1>
+        </div>
+      </header>
+
+      <ContactForm />
     </div>
   )
 }
 
-export default Contac
+export default Contact
