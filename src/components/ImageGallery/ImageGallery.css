@@ -11,3 +11,7 @@
     object-fit: cover;
     cursor: pointer;
 }
+
+.gallery-pic, .gallery-pic-vertical{
+    border-color: #700b20;
+}

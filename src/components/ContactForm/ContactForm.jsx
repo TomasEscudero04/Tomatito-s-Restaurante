@@ -61,7 +61,7 @@ function ContactForm() {
 
 
   return (
-    <div className="container my-5">
+    <div className="my-5 p-2">
       <div className="row">
         <div className="col-lg-6 d-flex align-items-center justify-content-center">
             <ContactInfo />
@@ -177,8 +177,8 @@ function ContactForm() {
                   />
                   <ErrorMessage component="div" name="comments" className="invalid-feedback" />
                 </div>
-                <button type="submit" className="btn btn-success btn-lg">
-                  Submit
+                <button type="submit" className="btn btn-danger btn-lg">
+                  Enviar
                 </button>
               </Form>
             )}

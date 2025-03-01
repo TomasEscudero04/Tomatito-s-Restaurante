@@ -6,11 +6,11 @@ function ContactInfo() {
                 <div className='row'>
                     <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-0'>
                         <div className='d-flex flex-column align-items-center'>
-                            <h2 className='fs-1 mb-3 text-uppercase fw-bold'>Where to Find Us</h2>
-                            <p className='mb-5'>47 Baker Street, London</p>
-                            <h3>Opening Hours</h3>
-                            <p className='m-0'>Mon - Fri: 09:00 - 17:00</p>
-                            <p>Sat - Sun: 10:00 - 15:00</p>
+                            <h2 className='fs-1 mb-3 text-uppercase fw-bold'>Nos encontramos en 📍</h2>
+                            <p className='mb-5 fs-5'>Brandsen 805 - Ciudad Autonoma de Buenos Aires</p>
+                            <h3>Horarios:</h3>
+                            <p className='m-0 fs-5'>Martes a Domingo: 08:00 - 00:00 hs</p>
+                            <p className="fs-5">Lunes: Cerrado</p>
                         </div>
                     </div>
                     <div className='col-lg-6 d-flex justify-content-center'>

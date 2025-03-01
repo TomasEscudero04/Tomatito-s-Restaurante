@@ -3,8 +3,10 @@
 function AboutSectionPage() {
   return (
 <div className='container my-5'>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus provident tenetur modi in quae voluptatem consequuntur itaque eveniet magni quasi. Aliquid maxime iusto fugiat velit qui! Repellat minima sit asperiores!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt ullam, aut ab consectetur deleniti, provident commodi ut quis vel molestias laboriosam officia accusantium maiores dolorem placeat aperiam iure id corporis!</p>
+            <p>Nuestro chef, con años de experiencia y pasión por la gastronomía, selecciona cuidadosamente los ingredientes de cada temporada.
+               Cada plato es una obra de arte, donde los sabores se entrelazan para crear una explosión de sensaciones en tu boca.</p>
+            <p>Acompaña tu comida con una selección de vinos exquisitos, cuidadosamente elegidos para realzar cada sabor.
+               Y para el final, déjate tentar por nuestros postres caseros, una dulce culminación para una experiencia inolvidable.</p>
             <div className='row'>
                 <div className='col-lg-6'>
                       <img src="https://images.pexels.com/photos/4252146/pexels-photo-4252146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="chef-img" className='img-fluid my-4' />
@@ -13,7 +15,9 @@ function AboutSectionPage() {
                       <img src="https://images.pexels.com/photos/8629081/pexels-photo-8629081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="chef2-img" className='img-fluid my-4' />
                 </div>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, accusamus deleniti hic ipsa aliquam quis quasi itaque, tenetur necessitatibus inventore saepe id soluta ullam ducimus? Sapiente earum enim rerum obcaecati voluptatem, sequi totam esse tenetur provident? Esse eos labore animi. Optio nihil, veritatis tenetur voluptates iusto vel incidunt corporis esse ipsam libero ex error beatae minus non molestias. Dicta dolore nostrum minus eveniet perspiciatis earum, placeat culpa molestiae quisquam! Totam ullam suscipit voluptas consequatur asperiores earum, modi odio itaque praesentium, possimus reprehenderit, rerum harum! Facere a tempora veritatis? Facere, quos.</p>
+            <p>Por generaciones, nuestro restaurante ha sido un punto de encuentro para amantes de la buena mesa y personalidades destacadas.
+              Desde celebridades hasta líderes influyentes, todos encuentran en nuestro ambiente un refugio para disfrutar de la excelencia culinaria.
+              Únete a la lista de quienes han hecho de nuestro restaurante su destino predilecto, donde la tradición y la innovación se encuentran en cada plato.</p>
           </div>
   )
 }

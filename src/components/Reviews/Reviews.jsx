@@ -4,7 +4,7 @@ import { Card, CardBody, CardFooter, CardTitle, CardText } from 'react-bootstrap
 function Reviews({clients}) {
   return (
     <div className='reviews-section container'>
-      <h2 className='text-center mb-5 text-uppercase fw-bold fs-1'></h2>
+      <h2 className='text-center mb-5 text-uppercase fw-bold fs-1'>Amigos de la casa</h2>
       <div className='row g-4'>
         {
           clients.map((item) => (
@@ -17,7 +17,7 @@ function Reviews({clients}) {
                 </CardBody>
                 <CardFooter className='d-flex align-items-center'>
                   <img src={item.image} alt={item.name} className='img-fluid mx-3 shadow'/>
-                  <CardTitle className='text-success'>{item.name}</CardTitle>
+                  <CardTitle className='text-danger'>{item.name}</CardTitle>
                 </CardFooter>
               </Card>
             </div>

@@ -84,6 +84,26 @@ const postre = [
     price: '$5000',
   }
 ]
+const bebidas = [
+  {
+    id: 1,
+    name: 'Fernet',
+    description: 'Fernet con coca cola',
+    price: '$8000',
+  },
+  {
+    id: 2,
+    name: 'Gin Tonic',
+    description: 'Gin con agua tonica, frutos rojos o menta y jenjibre',
+    price: '$4500',
+  },
+  {
+    id: 3,
+    name: 'Sex on the beach',
+    description: 'Vodka, licor de durazno, jugo de naranja y granadina',
+    price: '$7700',
+  }
+]
 
 function Menu() {
   return (
@@ -118,9 +138,16 @@ function Menu() {
       <MenuCard
       menu={postre}
       img='https://images.pexels.com/photos/3026804/pexels-photo-3026804.jpeg?auto=compress&cs=tinysrgb&w=600'
-      title='Cena'
+      title='Postre'
       bg='bg-dark'
       text='text-white'
+      />
+      <MenuCard
+      menu={bebidas}
+      img='public/pexels-isabella-mendes-107313-338713.jpg'
+      title='Bebidas'
+      bg='bg-white'
+      text=''
       />
     </div>
   )
