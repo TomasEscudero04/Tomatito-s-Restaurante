@@ -85,7 +85,7 @@ function ContactForm() {
               <Form className="w-100">
                 <div className="row mb-3 mt-3">
                   <div className="col-md-6">
-                    <label htmlFor="firstName">First Name</label>
+                    <label htmlFor="firstName">Nombre</label>
                     <Field
                       type="text"
                       id="firstName"
@@ -97,7 +97,7 @@ function ContactForm() {
                     <ErrorMessage component="div" name="firstName" className="invalid-feedback" />
                   </div>
                   <div className="col-md-6">
-                    <label htmlFor="lastName">Last Name</label>
+                    <label htmlFor="lastName">Apellido</label>
                     <Field
                       type="text"
                       id="lastName"
@@ -111,7 +111,7 @@ function ContactForm() {
                 </div>
                 <div className="row mb-3">
                   <div className="col-md-6">
-                    <label htmlFor="email">Email Address</label>
+                    <label htmlFor="email">Email</label>
                     <Field
                       type="email"
                       id="email"
@@ -123,7 +123,7 @@ function ContactForm() {
                     <ErrorMessage component="div" name="email" className="invalid-feedback" />
                   </div>
                   <div className="col-md-6">
-                    <label htmlFor="phone">Phone Number</label>
+                    <label htmlFor="phone">Celular</label>
                     <Field
                       type="tel"
                       id="phone"
@@ -137,7 +137,7 @@ function ContactForm() {
                 </div>
                 <div className="row mb-3">
                   <div className="col-md-6">
-                    <label htmlFor="date">Date</label>
+                    <label htmlFor="date">Fecha de Nacimiento</label>
                     <Field
                       type="date"
                       id="date"
@@ -149,7 +149,7 @@ function ContactForm() {
                     <ErrorMessage component="div" name="date" className="invalid-feedback" />
                   </div>
                   <div className="col-md-6">
-                    <label htmlFor="guestNumber">Number of Guests</label>
+                    <label htmlFor="guestNumber">Numero de invitados</label>
                     <Field
                       type="number"
                       id="guestNumber"
@@ -166,7 +166,7 @@ function ContactForm() {
                   </div>
                 </div>
                 <div className="mb-4">
-                  <label htmlFor="comments">Comments</label>
+                  <label htmlFor="comments">Comentarios</label>
                   <Field
                     as="textarea"
                     id="comments"
