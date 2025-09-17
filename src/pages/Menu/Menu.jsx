@@ -144,7 +144,7 @@ function Menu() {
       />
       <MenuCard
       menu={bebidas}
-      img='public/pexels-isabella-mendes-107313-338713.jpg'
+      img='/pexels-isabella-mendes-107313-338713.jpg'
       title='Bebidas'
       bg='bg-white'
       text=''
